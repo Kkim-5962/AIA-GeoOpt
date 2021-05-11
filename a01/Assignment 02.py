@@ -43,7 +43,7 @@ for j in range(num_faces):
 
 c = []
 for k in range(num_faces):
-    angle = rg.Vector3d.VectorAngle(a[i], s)
+    angle = rg.Vector3d.VectorAngle(a[k], s)
     c.append(angle)
 
 
